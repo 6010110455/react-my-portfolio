@@ -1,0 +1,13 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "เลขออเดอร์",
+    "สถานะออเดอร์",
+    "Chatpage",
+    "gapi",
+    "tailwindcss"
+  ],
+  "javascript.suggestionActions.enabled": true,
+  "i18n-ally.localesPaths": ["lang"]
+}
