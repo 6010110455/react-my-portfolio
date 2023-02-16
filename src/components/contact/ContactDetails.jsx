@@ -38,6 +38,20 @@ const ContactDetails = () => {
           ))}
         </ul>
       </div>
+      <div>
+        <iframe
+          title="MY HOME"
+          src={
+            "https://www.google.com/maps/embed/v1/place?key=AIzaSyCW6HXYlqqnvyEVcgjXfdFVZvHxz7l-btQ&q=" +
+            "1012, Tambon Ao Noi, Amphoe Mueang Prachuap Khiri Khan, Chang Wat Prachuap Khiri Khan 77210"
+          }
+          width="100%"
+          height="500"
+          style={{ border: "0px" }}
+          aria-hidden="false"
+          className="mx-auto"
+        ></iframe>
+      </div>
     </div>
   );
 };
