@@ -31,10 +31,10 @@ const About = () => {
               href="https://github.com/6010110455"
               className="cursor-pointer hover:underline"
             >
-              (click)
+              (View the Project on GitHub)
             </a>
           </div>
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center my-4">
             <img
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=6010110455&layout=compact&langs_count=9&theme=dracula"
               alt="mildronize"
@@ -42,7 +42,7 @@ const About = () => {
             &nbsp;
           </div>
 
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center my-4">
             <img
               src="https://github-readme-stats.vercel.app/api?username=6010110455&show_icons=true&count_private=true&theme=dracula"
               alt="mildronize"

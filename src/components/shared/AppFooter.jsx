@@ -27,7 +27,7 @@ const socialLinks = [
   {
     id: 4,
     icon: <FiLinkedin />,
-    url: "www.linkedin.com/in/thanachit-sengsalee-8b4ba0236",
+    url: "https://www.linkedin.com/in/thanachit-sengsalee-8b4ba0236",
   },
   {
     id: 5,
