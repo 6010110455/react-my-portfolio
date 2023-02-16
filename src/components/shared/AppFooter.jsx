@@ -3,6 +3,7 @@ import {
   FiLinkedin,
   FiGlobe,
   FiYoutube,
+  FiInstagram,
   FiFacebook,
 } from "react-icons/fi";
 import AppFooterCopyright from "./AppFooterCopyright";
@@ -32,6 +33,11 @@ const socialLinks = [
     id: 5,
     icon: <FiYoutube />,
     url: "https://www.youtube.com/@thanachitbenz6444",
+  },
+  {
+    id: 6,
+    icon: <FiInstagram />,
+    url: "https://www.instagram.com/benzts_/",
   },
 ];
 
