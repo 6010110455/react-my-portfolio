@@ -3,7 +3,7 @@
 // import AboutClients from "../components/about/AboutClients";
 import React, { useState, useCallback } from "react";
 
-import { AboutMeProvider } from "../context/AboutMeContext";
+import { ImageProvider } from "../context/ImageContext";
 import { motion } from "framer-motion";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
@@ -25,7 +25,7 @@ const Galleries = () => {
   };
 
   return (
-    <AboutMeProvider>
+    <ImageProvider>
       {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, delay: 1 }}
@@ -59,7 +59,7 @@ const Galleries = () => {
           </ModalGateway>
         </div>
       </motion.div>
-    </AboutMeProvider>
+    </ImageProvider>
   );
 };
 
