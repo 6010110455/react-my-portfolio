@@ -1,18 +1,18 @@
 import { useState, createContext } from "react";
 import { Images } from "../data/imagesData";
 
-// Create projects context
+// Create images context
 export const ImageContext = createContext();
 
-// Create the projects context provider
+// Create the images context provider
 export const ImageProvider = (props) => {
   const [images, setImages] = useState(Images);
   const [searchImage, setSearchImage] = useState("");
   const [selectImage, setSelectImage] = useState("");
 
-  // Search projects by project title
+  // Search images by project title
   const searchImageByTitle = images.filter((item) => {
-    const result = item.title.toLowerCase().includes(searchImage.toLowerCase())
+    const result = item?.type.toLowerCase().includes(searchImage.toLowerCase())
       ? item
       : searchImage === ""
       ? item
@@ -20,11 +20,10 @@ export const ImageProvider = (props) => {
     return result;
   });
 
-  // Select projects by project category
+  // Select images by project category
   const selectImageByCategory = images.filter((item) => {
-    let category =
-      item.category.charAt(0).toUpperCase() + item.category.slice(1);
-    return category.includes(selectImage);
+    let system = item?.system.charAt(0).toUpperCase() + item?.system.slice(1);
+    return system.includes(selectImage);
   });
 
   return (

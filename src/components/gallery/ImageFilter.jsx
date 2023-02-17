@@ -1,4 +1,4 @@
-const selectOptions = ["E-Merchant, E-Accom, W-Warehouse"];
+const selectOptions = ["E-Merchant", "E-Accom", "E-Warehouse"];
 
 const ImageFilter = ({ setSelectImage }) => {
   return (

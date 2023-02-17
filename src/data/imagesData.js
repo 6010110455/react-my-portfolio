@@ -5,7 +5,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "ariya",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -14,7 +14,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "ariya",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -23,7 +23,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "ariya",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -32,7 +32,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "ariya",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -41,7 +41,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "ban-ting",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -50,7 +50,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "ban-ting",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -59,7 +59,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "ban-ting",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -68,7 +68,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "ban-ting",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -77,7 +77,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "ban-ting",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -86,7 +86,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "thaimer",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -95,7 +95,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "thaimer",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -104,7 +104,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "cakekanita",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -113,7 +113,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "cakekanita",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -122,7 +122,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "u2t",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -131,7 +131,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "u2t",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -140,7 +140,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "u2t",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -149,7 +149,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "u2t",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -158,7 +158,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "u2t",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -167,7 +167,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "u2t",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2022,
   },
   {
@@ -176,7 +176,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "stp",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
   {
@@ -185,7 +185,7 @@ export const Images = [
     width: 4,
     height: 3,
     type: "stp",
-    system: "e-merchant",
+    system: "E-Merchant",
     year: 2021,
   },
 ];
