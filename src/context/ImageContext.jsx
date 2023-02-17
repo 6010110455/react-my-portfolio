@@ -12,7 +12,7 @@ export const ImageProvider = (props) => {
 
   // Search projects by project title
   const searchImageByTitle = images.filter((item) => {
-    const result = item.title.toLowerCase().includes(searchImage.toLowerCase())
+    const result = item?.type?.toLowerCase().includes(searchImage.toLowerCase())
       ? item
       : searchImage === ""
       ? item
@@ -22,9 +22,8 @@ export const ImageProvider = (props) => {
 
   // Select projects by project category
   const selectImageByCategory = images.filter((item) => {
-    let category =
-      item.category.charAt(0).toUpperCase() + item.category.slice(1);
-    return category.includes(selectImage);
+    let system = item.system.charAt(0).toUpperCase() + item.system.slice(1);
+    return system.includes(selectImage);
   });
 
   return (
