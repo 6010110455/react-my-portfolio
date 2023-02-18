@@ -44,7 +44,7 @@ brew install node
 2. Clone the repo:
 
 ```
-git clone https://github.com/realstoman/react-tailwindcss-portfolio.git
+git clone https://github.com/6010110455/react-my-portfolio.git
 ```
 
 3. Open the project folder:
