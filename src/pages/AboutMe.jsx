@@ -18,6 +18,10 @@ const About = () => {
           name="google-site-verification"
           content="2HSSIHsakNFao9y4Sywcx-siP9G1a1ccev9hdetKkak"
         />
+        <meta
+          name="keywords"
+          content="thanachit sengsalee, sengsalee, thanachit portfolio, thanachit, benz, ธนชิต เส็งสาลี, ธนชิต, เส็งสาลี, benz thanachit, benz sengsalee, sengsalee family"
+        />
       </Helmet>
       <AboutMeProvider>
         <motion.div

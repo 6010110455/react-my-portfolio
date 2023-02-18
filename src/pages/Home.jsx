@@ -15,6 +15,10 @@ const Home = () => {
           name="description"
           content="This is a website that gathers Thanachit's projects and skills."
         />
+        <meta
+          name="keywords"
+          content="thanachit sengsalee, sengsalee, thanachit portfolio, thanachit, benz, ธนชิต เส็งสาลี, ธนชิต, เส็งสาลี, benz thanachit, benz sengsalee, sengsalee family"
+        />
         {/* Facebook meta tags below */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="benz.sengsalee.com" />
