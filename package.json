@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^7.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
+    "craco-less": "^2.0.0",
     "framer-motion": "4.1.17",
     "postcss-cli": "^10.1.0",
     "react": "^18.2.0",
@@ -18,7 +20,7 @@
     "react-images": "^1.2.0-beta.7",
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^6.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.4",
     "styled-components": "^5.3.3",
     "web-vitals": "^1.0.1"
@@ -26,7 +28,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "yarn run react-scripts build",
+    "build:craco": "craco build",
     "test": "react-scripts test",
+    "test:craco": "craco test",
     "eject": "react-scripts eject",
     "build:css": "postcss src/css/tailwind.css -o src/css/main.css"
   },
@@ -51,7 +55,7 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.2",
     "@testing-library/dom": "^8.20.0",
-    "autoprefixer": "^10.4.7",
+    "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.0.24"
   }
