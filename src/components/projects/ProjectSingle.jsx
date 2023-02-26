@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const ProjectSingle = ({ title, category, image, linkDemo, linkInfo }) => {
   return (
@@ -12,7 +12,12 @@ const ProjectSingle = ({ title, category, image, linkDemo, linkInfo }) => {
         delay: 0.15,
       }}
     >
-      <Link to="/projects/single-project" aria-label="Single Project">
+      <a
+        target="_blank"
+        href={linkDemo}
+        rel="noopener noreferrer"
+        aria-label="Single Project"
+      >
         <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
           <div>
             <img
@@ -30,7 +35,7 @@ const ProjectSingle = ({ title, category, image, linkDemo, linkInfo }) => {
             </span>
           </div>
         </div>
-      </Link>
+      </a>
     </motion.div>
   );
 };

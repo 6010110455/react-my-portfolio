@@ -17,6 +17,7 @@ export const projectsData = [
       publishDate: "Jul 26, 2021",
       tags: "full-stack Developer / next js / react js",
     },
+    linkDemo: "https://efactory.biz/",
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ export const projectsData = [
       publishDate: "Jul 26, 2021",
       tags: "full-stack Developer / next js / react js",
     },
+    linkDemo: "https://efactory.biz/",
   },
   {
     id: 3,
@@ -39,5 +41,6 @@ export const projectsData = [
       publishDate: "Jul 26, 2021",
       tags: "full-stack Developer / react js",
     },
+    linkDemo: "https://efactory.biz/",
   },
 ];
