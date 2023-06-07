@@ -63,9 +63,9 @@ function App() {
                   element={<ProjectSingle />}
                 />
 
-                <Route path="about" element={<About />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="gallery" element={<Galleries />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/gallery" element={<Galleries />} />
                 <Route
                   path="*"
                   element={<div>Error 404 Page not found!</div>}
