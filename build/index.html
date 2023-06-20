@@ -34,7 +34,25 @@
       content="2HSSIHsakNFao9y4Sywcx-siP9G1a1ccev9hdetKkak"
     />
     <link rel="manifest" href="/manifest.json" />
-    <script defer="defer" src="/static/js/main.b33299d9.js"></script>
+    <script type="text/javascript">
+      !(function (n) {
+        if ("/" === n.search[1]) {
+          var a = n.search
+            .slice(1)
+            .split("&")
+            .map(function (n) {
+              return n.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            n.pathname.slice(0, -1) + a + n.hash
+          );
+        }
+      })(window.location);
+    </script>
+    <script defer="defer" src="/static/js/main.44f50e0e.js"></script>
     <link href="/static/css/main.39b6a972.css" rel="stylesheet" />
   </head>
   <body>
